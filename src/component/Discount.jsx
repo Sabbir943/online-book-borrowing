@@ -8,7 +8,7 @@ const Discount = () => {
         <h1 className='w-8/12 mx-auto my-10 text-4xl text-muted font-blod text-center'>Book offer:</h1>
         <Card className='w-6/12 mx-auto border border-gray-300 shadow'>
             
-            <div className='flex justify-between items-center gap-6 '>
+            <div className='flex justify-between items-center gap-6 duration-100 animate-pulse '>
                 <div>
                 
              <Image

@@ -1,5 +1,6 @@
 import Banner from "@/component/Banner";
 import FeatureBook from "@/component/FeatureBook";
+import GetStrated from "@/component/GetStrated";
 import MarqueePage from "@/component/MarqueePage";
 
 
@@ -9,6 +10,7 @@ const HomePage = () => {
            <Banner/>
           <MarqueePage/>
           <FeatureBook/>
+          <GetStrated/>
         </div>
     );
 };

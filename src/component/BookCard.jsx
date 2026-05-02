@@ -1,4 +1,5 @@
 
+import { Button } from '@heroui/react';
 import Image from 'next/image';
 import React from 'react';
 
@@ -23,10 +24,7 @@ const BookCard = ({book}) => {
     </h2>
     <h1 className='text-muted'>Written By: {book.author}</h1>
     <p className='line-clamp-2'>{book.description}</p>
-    <div className="card-actions justify-end">
-      <div className="badge badge-outline">Fashion</div>
-      <div className="badge badge-outline">Products</div>
-    </div>
+    <Button className="w-full my-3" variant='primary'>View Details</Button>
   </div>
 </div>
         

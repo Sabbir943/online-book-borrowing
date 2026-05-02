@@ -6,7 +6,7 @@ import MyLinks from './MyLinks';
 const Navbar = () => {
     
     return (
-      <div className='bg-base-100 shadow-sm'>
+      <div className='bg-[#113065] shadow-sm'>
 
   <div className=" navbar  w-10/12 mx-auto ">
   <div className="navbar-start">
@@ -16,8 +16,8 @@ const Navbar = () => {
       </div>
       <ul
         tabIndex="-1"
-        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow font-semibold ">
-         <MyLinks href={'/home'} >Home</MyLinks>
+        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow font-semibold">
+         <MyLinks  href={'/home'} >Home</MyLinks>
          <MyLinks href={'/allBooks'}>All Books</MyLinks>
          <MyLinks href={'/myProfile'}>My Profile</MyLinks>
       </ul>

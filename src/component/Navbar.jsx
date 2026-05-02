@@ -1,8 +1,14 @@
 import React from 'react';
-
+import logoImg from '@/assets/images/logo.png'
+import Link from 'next/link';
+import Image from 'next/image';
+import MyLinks from './MyLinks';
 const Navbar = () => {
+    
     return (
-        <div className="navbar bg-base-100 shadow-sm">
+      <div className='bg-base-100 shadow-sm'>
+
+  <div className=" navbar  w-10/12 mx-auto ">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -10,26 +16,39 @@ const Navbar = () => {
       </div>
       <ul
         tabIndex="-1"
-        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-        <li><a>Item 1</a></li>
-       <li><a>Item 2</a></li>
-        <li><a>Item 3</a></li>
+        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow font-semibold ">
+         <MyLinks href={'/home'} >Home</MyLinks>
+         <MyLinks href={'/allBooks'}>All Books</MyLinks>
+         <MyLinks href={'/myProfile'}>My Profile</MyLinks>
       </ul>
     </div>
-    <a className="btn btn-ghost text-xl">daisyUI</a>
+    <Link href={'/'}><Image
+  src={logoImg}
+  width={50}
+  height={50}
+  alt='logo-img'
+  className='rounded-full'
+  
+  /></Link>
+  
+ 
   </div>
+
   <div className="navbar-center hidden lg:flex">
-    <ul className="menu menu-horizontal px-1">
-      <li><a>Item 1</a></li>
-      <li><a>Item 2</a></li>
-     
-      <li><a>Item 3</a></li>
+    <ul className="menu menu-horizontal px-1 gap-4 font-semibold ">
+      <MyLinks href={'/home'} >Home</MyLinks>
+        <MyLinks href={'/allBooks'}>All Books</MyLinks>
+         <MyLinks href={'/myProfile'}>My Profile</MyLinks>
     </ul>
   </div>
-  <div className="navbar-end">
-    <a className="btn">Button</a>
+
+  <div className="navbar-end gap-4">
+    <button className="btn btn-accent">LogIn</button>
+    <button className="btn btn-info">SignUp</button>
   </div>
+
 </div>
+      </div>
     );
 };
 

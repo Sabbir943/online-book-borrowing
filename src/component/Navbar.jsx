@@ -6,7 +6,7 @@ import MyLinks from './MyLinks';
 const Navbar = () => {
     
     return (
-      <div className='bg-[#113065] shadow-sm'>
+      <div className='bg-[#ffdbdc] shadow-sm'>
 
   <div className=" navbar  w-10/12 mx-auto ">
   <div className="navbar-start">

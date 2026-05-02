@@ -8,7 +8,7 @@ const MyLinks = ({href,children}) => {
     const isActive=pathName===href;
     return (
         <div>
-            <Link  href={href} className={`${isActive?"text-blue-500 border-b border-b-blue-500":""} text-white text-lg`}>{children}</Link>
+            <Link  href={href} className={`${isActive?"text-blue-500 border-b border-b-blue-500":""} text-lg`}>{children}</Link>
         </div>
     );
 };

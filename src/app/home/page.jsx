@@ -1,4 +1,6 @@
 import Banner from "@/component/Banner";
+import Discount from "@/component/Discount";
+
 import FeatureBook from "@/component/FeatureBook";
 import GetStrated from "@/component/GetStrated";
 import MarqueePage from "@/component/MarqueePage";
@@ -11,6 +13,8 @@ const HomePage = () => {
           <MarqueePage/>
           <FeatureBook/>
           <GetStrated/>
+          <Discount/>
+         
         </div>
     );
 };

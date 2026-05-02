@@ -1,90 +1,7 @@
 [
+   
       {
         "id": 1,
-        "type": "new_arrival",
-        "label": "New Arrival",
-        "message": "New Arrivals: The Midnight Library by Matt Haig",
-        "category": "Story"
-      },
-      {
-        "id": 2,
-        "type": "new_arrival",
-        "label": "New Arrival",
-        "message": "New Arrivals: Dune by Frank Herbert",
-        "category": "Story"
-      },
-      {
-        "id": 3,
-        "type": "new_arrival",
-        "label": "New Arrival",
-        "message": "New Arrivals: The Pragmatic Programmer by David Thomas & Andrew Hunt",
-        "category": "Tech"
-      },
-      {
-        "id": 4,
-        "type": "new_arrival",
-        "label": "New Arrival",
-        "message": "New Arrivals: A Brief History of Time by Stephen Hawking",
-        "category": "Science"
-      },
-      {
-        "id": 5,
-        "type": "new_arrival",
-        "label": "New Arrival",
-        "message": "New Arrivals: Clean Code by Robert C. Martin",
-        "category": "Tech"
-      },
-      {
-        "id": 6,
-        "type": "new_arrival",
-        "label": "New Arrival",
-        "message": "New Arrivals: The Selfish Gene by Richard Dawkins",
-        "category": "Science"
-      },
-      {
-        "id": 7,
-        "type": "new_arrival",
-        "label": "New Arrival",
-        "message": "New Arrivals: 1984 by George Orwell",
-        "category": "Story"
-      },
-      {
-        "id": 8,
-        "type": "new_arrival",
-        "label": "New Arrival",
-        "message": "New Arrivals: You Don't Know JS by Kyle Simpson",
-        "category": "Tech"
-      },
-      {
-        "id": 9,
-        "type": "new_arrival",
-        "label": "New Arrival",
-        "message": "New Arrivals: The Gene: An Intimate History by Siddhartha Mukherjee",
-        "category": "Science"
-      },
-      {
-        "id": 10,
-        "type": "new_arrival",
-        "label": "New Arrival",
-        "message": "New Arrivals: Project Hail Mary by Andy Weir",
-        "category": "Story"
-      },
-      {
-        "id": 11,
-        "type": "new_arrival",
-        "label": "New Arrival",
-        "message": "New Arrivals: Designing Data-Intensive Applications by Martin Kleppmann",
-        "category": "Tech"
-      },
-      {
-        "id": 12,
-        "type": "new_arrival",
-        "label": "New Arrival",
-        "message": "New Arrivals: The Body: A Guide for Occupants by Bill Bryson",
-        "category": "Science"
-      },
-      {
-        "id": 13,
         "type": "discount",
         "label": "Special Offer",
         "message": "Special Discount on Memberships — Platinum Members Save 30% on selected books!",
@@ -92,7 +9,7 @@
         "discount_percent": 30
       },
       {
-        "id": 14,
+        "id": 2,
         "type": "discount",
         "label": "Special Offer",
         "message": "Special Discount on Memberships — Gold Members Save up to 25% on top picks!",
@@ -100,7 +17,7 @@
         "discount_percent": 25
       },
       {
-        "id": 15,
+        "id": 3,
         "type": "discount",
         "label": "Special Offer",
         "message": "Special Discount on Memberships — Silver Members Save up to 15% storewide!",
@@ -108,31 +25,31 @@
         "discount_percent": 15
       },
       {
-        "id": 16,
+        "id": 4,
         "type": "promotion",
         "label": "Deal",
         "message": "Free Home Delivery on every order with an Annual Membership!"
       },
       {
-        "id": 17,
+        "id": 5,
         "type": "promotion",
         "label": "Limited Stock",
         "message": "Hurry! Clean Code by Robert C. Martin is Out of Stock — Reserve your copy now!"
       },
       {
-        "id": 18,
+        "id": 6,
         "type": "promotion",
         "label": "Student Deal",
         "message": "Exclusive 20% Student Discount — Show your ID and save big today!"
       },
       {
-        "id": 19,
+        "id": 7,
         "type": "promotion",
         "label": "Bundle Offer",
         "message": "Buy any 3 books and get an extra 15% off — Shop now!"
       },
       {
-        "id": 20,
+        "id": 8,
         "type": "promotion",
         "label": "Flash Sale",
         "message": "Flash Sale: Science books up to 30% off — This weekend only!"

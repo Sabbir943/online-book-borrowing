@@ -1,8 +1,12 @@
+import Banner from "@/component/Banner";
+import MarqueePage from "@/component/MarqueePage";
+
 
 const HomePage = () => {
     return (
         <div>
-            <p>Home page comming soon</p>
+           <Banner/>
+          <MarqueePage/>
         </div>
     );
 };

@@ -1,9 +1,14 @@
+import BookCard from "@/component/BookCard";
+import { getBooks } from "@/lib/data";
 
+const AllBooks =async() => {
+    const books=await getBooks();
 
-const AllBooks = () => {
     return (
-        <div>
-            <p>ALl Books Are Comming soon</p>
+        <div className="grid grid-cols-3 gap-5 my-10">
+            {
+                books.map((book,index)=><BookCard book={book} key={index}/>)
+            }
         </div>
     );
 };

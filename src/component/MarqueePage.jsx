@@ -9,7 +9,7 @@ const MarqueePage =async () => {
     return (
         <div>
             <div className='flex items-center my-10 border p-5 rounded-2xl '>
-                <Button variant='primary'>LIVE</Button>
+                <Button className='animate-pulse' variant='danger'>LIVE</Button>
                 <Marquee pauseOnHover speed={100}>
 
                    <div className='flex gap-6 items-center '>

@@ -43,8 +43,10 @@ const Navbar = () => {
   </div>
 
   <div className="navbar-end gap-4">
-    <button className="btn btn-accent">LogIn</button>
-    <button className="btn btn-info">SignUp</button>
+    <Link href={'/signup'}><button className="btn btn-info">SignUp</button></Link>
+    <Link href={'/login'}><button className="btn btn-accent">LogIn</button></Link>
+    
+    
   </div>
 
 </div>

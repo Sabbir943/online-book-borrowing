@@ -11,6 +11,7 @@ import {
   Label,
   TextField,
 } from "@heroui/react";
+import Link from "next/link";
 import { GrGoogle } from "react-icons/gr";
 
 export default function SignInPage() {
@@ -100,6 +101,7 @@ export default function SignInPage() {
       <p className="text-center">Or</p>
 
       <Button onClick={handleGoogle}  variant="outline" className={'w-full'}><GrGoogle/> Sign In With Google</Button>
+     <p className="text-center">Don't have an account?<Link className="text-blue-500 font-bold text-xl ml-2"  href={'/signup'} >SignUp</Link></p>
     </Card>
   );
 }

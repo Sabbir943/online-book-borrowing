@@ -9,7 +9,7 @@ import { Avatar, Button } from '@heroui/react';
 const Navbar = () => {
   const { data, isPending } = authClient.useSession();
   const users = data?.user;
-  console.log(users)
+  
  const handleSignOut=async()=>{
    await authClient.signOut();
  }
@@ -56,8 +56,8 @@ const Navbar = () => {
         <div className="navbar-end gap-4">
 
           {!users &&
-            <div className='flex gap-3'> <Link href={'/signup'}><button className="btn btn-info">SignUp</button></Link>
-              <Link href={'/login'}><button  className="btn btn-accent">LogIn</button></Link></div>
+            
+              <Link href={'/login'}><button  className="btn btn-primary">LogIn</button></Link>
           }
 
           {

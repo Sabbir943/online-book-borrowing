@@ -1,5 +1,5 @@
 
-import { Button } from '@heroui/react';
+import { Button, Card } from '@heroui/react';
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
@@ -8,13 +8,13 @@ const BookCard = ({book}) => {
    
     return (
         
- <div className="card bg-[#E4E4E7] w-96 shadow-sm border border-gray-200">
+ <Card className="card  shadow-sm border border-gray-200">
   <figure className=''>
     <Image className='rounded-2xl h-[50vh]'
     src={book.image_url}
     
-   width={300}
-   height={300}
+   width={200}
+   height={50}
     alt={book.title}
     
     />
@@ -29,7 +29,7 @@ const BookCard = ({book}) => {
     <Link href={`bookDetails/${book.id}`} ><Button className="w-full my-3" variant='primary'>View Details</Button></Link>
     
   </div>
-</div>
+</Card>
         
        
     );

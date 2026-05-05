@@ -7,7 +7,7 @@
     "category": "Story",
     "available_quantity": 4,
     "price": 14.99,
-    "image_url": "https://i.ibb.co.com/0p1Qv3xM/book1.webp"
+    "image_url": "https://covers.openlibrary.org/b/id/10527475-M.jpg"
   },
   {
     "id": 2,
@@ -17,7 +17,7 @@
     "category": "Story",
     "available_quantity": 7,
     "price": 18.99,
-    "image_url": "https://i.ibb.co.com/KpY2CTNh/book2.webp"
+    "image_url": "https://covers.openlibrary.org/b/id/8701959-M.jpg"
   },
   {
     "id": 3,
@@ -27,7 +27,7 @@
     "category": "Tech",
     "available_quantity": 3,
     "price": 24.99,
-    "image_url": "https://i.ibb.co.com/LdZ9B6Nh/book3.webp"
+    "image_url": "https://covers.openlibrary.org/b/id/8700000-M.jpg"
   },
   {
     "id": 4,
@@ -37,7 +37,7 @@
     "category": "Science",
     "available_quantity": 5,
     "price": 12.99,
-    "image_url": "https://i.ibb.co.com/wFwWfCHS/book4.webp"
+    "image_url": "https://covers.openlibrary.org/b/id/8406786-M.jpg"
   },
   {
     "id": 5,
@@ -47,7 +47,7 @@
     "category": "Tech",
     "available_quantity": 0,
     "price": 29.99,
-    "image_url": "https://i.ibb.co.com/3yMRRX75/book5.webp"
+    "image_url": "https://covers.openlibrary.org/b/id/7243475-M.jpg"
   },
   {
     "id": 6,
@@ -57,7 +57,7 @@
     "category": "Science",
     "available_quantity": 2,
     "price": 13.99,
-    "image_url": "https://i.ibb.co.com/LhBjb1Wz/book6.webp"
+    "image_url": "https://covers.openlibrary.org/b/id/8702000-M.jpg"
   },
   {
     "id": 7,
@@ -67,7 +67,7 @@
     "category": "Story",
     "available_quantity": 6,
     "price": 11.99,
-    "image_url": "https://i.ibb.co.com/QF8mBVvx/book7.webp"
+    "image_url": "https://covers.openlibrary.org/b/id/9275594-M.jpg"
   },
   {
     "id": 8,
@@ -77,7 +77,7 @@
     "category": "Tech",
     "available_quantity": 8,
     "price": 19.99,
-    "image_url": "https://i.ibb.co.com/n8ZZCDfk/book8.webp"
+    "image_url": "https://covers.openlibrary.org/b/id/7111577-M.jpg"
   },
   {
     "id": 9,
@@ -87,7 +87,7 @@
     "category": "Science",
     "available_quantity": 1,
     "price": 16.99,
-    "image_url": "https://i.ibb.co.com/RpRtt03H/book9.webp"
+    "image_url": "https://covers.openlibrary.org/b/id/10527473-M.jpg"
   },
   {
     "id": 10,
@@ -97,7 +97,7 @@
     "category": "Story",
     "available_quantity": 3,
     "price": 15.99,
-    "image_url": "https://i.ibb.co.com/Q7s1CGq9/book10.webp"
+    "image_url": "https://covers.openlibrary.org/b/id/10361120-M.jpg"
   },
   {
     "id": 11,
@@ -107,7 +107,7 @@
     "category": "Tech",
     "available_quantity": 2,
     "price": 34.99,
-    "image_url": "https://i.ibb.co.com/hRs7TKtg/book11.webp"
+    "image_url": "https://covers.openlibrary.org/b/id/8091016-M.jpg"
   },
   {
     "id": 12,
@@ -117,6 +117,6 @@
     "category": "Science",
     "available_quantity": 9,
     "price": 13.99,
-    "image_url": "https://i.ibb.co.com/Rk6CDgGK/book12.webp"
+    "image_url": "https://covers.openlibrary.org/b/id/10361119-M.jpg"
   }
 ]

@@ -31,6 +31,9 @@ export default function SignInPage() {
     if(!error){
       toast.success('Login sueessfully')
     }
+    else{
+          toast.error("Invaild Credential")
+        }
 
    
   };
@@ -39,6 +42,7 @@ export default function SignInPage() {
   await authClient.signIn.social({
     provider: "google",
   })
+  toast.success('Login sueessfully')
  }
 
 

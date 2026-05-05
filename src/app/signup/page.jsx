@@ -41,6 +41,9 @@ export default function SignUpPage() {
         router.push('/login');
         toast.success("sign Up sucessfully!!")
     }
+    else{
+      toast.error("Invaild Credential")
+    }
 
   };
 

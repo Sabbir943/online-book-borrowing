@@ -16,7 +16,7 @@ const Banner = () => {
           </p>
 
           <div className="text-center">
-            <Link href="#">
+            <Link href="/allBooks">
               <Button className="bg-linear-to-r from-pink-500 via-purple-500 bg-red-500 px-10 py-5 text-xl ">
                Browse Now
               </Button>

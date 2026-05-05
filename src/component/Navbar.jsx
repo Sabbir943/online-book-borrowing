@@ -42,8 +42,9 @@ const Navbar = () => {
             alt='logo-img'
             className='rounded-full'
 
-          /></Link><Link href={'/home'}></Link>
-
+          /></Link>
+          <Link className='text-2xl font-bold ml-3' href={'/home'}><span className='text-orange-500'>Read</span><span>Hive</span></Link>
+            
 
         </div>
 

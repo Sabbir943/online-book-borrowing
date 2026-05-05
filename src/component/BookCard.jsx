@@ -10,6 +10,7 @@ const BookCard = ({book}) => {
     return (
         
  <Card className="card  shadow-sm border border-gray-200 mx-10/12 mx-auto">
+   
   <div>
     <Image
    src={book.image_url}

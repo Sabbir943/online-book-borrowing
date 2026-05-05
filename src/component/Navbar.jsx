@@ -6,12 +6,14 @@ import Image from 'next/image';
 import MyLinks from './MyLinks';
 import { authClient } from '@/lib/auth-client';
 import { Avatar, Button } from '@heroui/react';
+import { toast } from 'react-toastify';
 const Navbar = () => {
   const { data, isPending } = authClient.useSession();
   const users = data?.user;
   
  const handleSignOut=async()=>{
    await authClient.signOut();
+   toast.error("LogOut sucessfully!!")
  }
 
   return (
@@ -69,7 +71,7 @@ const Navbar = () => {
 
               </Avatar>
 
-              <Link href={'/login'}><Button onClick={handleSignOut} variant='danger'>LogOut</Button></Link>
+              <Link href={'/home'}><Button onClick={handleSignOut} variant='danger'>LogOut</Button></Link>
 
             </div>
 

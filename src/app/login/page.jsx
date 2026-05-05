@@ -13,6 +13,7 @@ import {
 } from "@heroui/react";
 import Link from "next/link";
 import { GrGoogle } from "react-icons/gr";
+import { toast } from "react-toastify";
 
 export default function SignInPage() {
   const onSubmit = async (e) => {
@@ -26,6 +27,10 @@ export default function SignInPage() {
       password,
       callbackURL: "/",
     });
+
+    if(!error){
+      toast.success('Login sueessfully')
+    }
 
    
   };

@@ -1,6 +1,8 @@
 'use client'
+import { WithForm } from "@/component/WithForm";
 import { authClient } from "@/lib/auth-client";
 import { Avatar, Button, Card } from "@heroui/react";
+import Link from "next/link";
 const MyProfile = () => {
     const{data,isPending}=authClient.useSession();
     const users=data?.user;
@@ -15,10 +17,12 @@ const MyProfile = () => {
       <div className="text-center space-y-3">
      <p className="text-2xl">{users?.name}</p>
              <p className="text-muted">{users?.email}</p>
-             <Button  variant="secondary">Update Profile</Button>
+             
+              <WithForm/>
       </div>
              
            </Card>
+          
         </div>
     );
 };

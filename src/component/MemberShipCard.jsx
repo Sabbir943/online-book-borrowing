@@ -31,7 +31,7 @@ const MemberShipCard = () => {
 
       
       <div className="bg-white rounded-2xl shadow-xl border-2 border-indigo-600 p-8 flex flex-col relative transform scale-105 z-10">
-        <span className="absolute top-0 right-8 transform -translate-y-1/2 bg-indigo-600 text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wide">Most Popular</span>
+        <span className="absolute top-0 right-20 transform -translate-y-1/2 bg-indigo-600 text-white text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wide">Most Popular</span>
         <h3 className="text-xl font-semibold text-gray-800">Bibliophile</h3>
         <p className="text-4xl font-bold mt-4 text-indigo-600">$12 <span className="text-sm font-normal text-gray-500">/month</span></p>
         <ul className="mt-6 space-y-4 flex-grow">

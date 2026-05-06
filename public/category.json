@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "category": "Story"
+  },
+  {
+    "id": 2,
+    "category": "Tech"
+  },
+  {
+    "id": 3,
+    "category": "Science"
+  }
+]

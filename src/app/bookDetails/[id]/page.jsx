@@ -17,7 +17,7 @@ const BookDetails = async({params}) => {
     
     
     return (
- <div className='flex gap-10 items-center my-10 w-10/12 mx-auto'>
+ <div className='flex flex-col md:flex-row gap-10 items-center my-10 w-10/12 mx-auto'>
       <div >
          <Image
        src={expectedBook.image_url}

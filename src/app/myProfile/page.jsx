@@ -11,7 +11,7 @@ const MyProfile = () => {
         <div className="text-center md:w-6/12 mx-auto  p-10">
            <Card className="md:h-[50vh] my-10 border border-gray-300 ">
              <Avatar  className=" mx-auto w-30 h-30">
-        <Avatar.Image className="" alt="John Doe" src={users?.image} />
+        <Avatar.Image className="" alt="John Doe" src={users?.image} referrerPolicy="no-referrer" />
         
       </Avatar>
       <div className="text-center space-y-3">

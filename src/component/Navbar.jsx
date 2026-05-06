@@ -7,6 +7,7 @@ import MyLinks from './MyLinks';
 import { authClient } from '@/lib/auth-client';
 import { Avatar, Button } from '@heroui/react';
 import { toast } from 'react-toastify';
+import { redirect } from 'next/navigation';
 const Navbar = () => {
   const { data, isPending } = authClient.useSession();
   const users = data?.user;
@@ -14,6 +15,7 @@ const Navbar = () => {
  const handleSignOut=async()=>{
    await authClient.signOut();
    toast.error("LogOut sucessfully!!")
+   redirect('/login')
  }
 
   return (
@@ -67,12 +69,9 @@ const Navbar = () => {
             users &&
             <div className='flex gap-4 items-center'>
               <p>{users?.name}</p>
-              <Avatar>
-                <Avatar.Image alt="John Doe" src={users?.image} referrerPolicy='no-referrer'/>
+              
 
-              </Avatar>
-
-              <Link href={'/home'}><Button onClick={handleSignOut} variant='danger'>LogOut</Button></Link>
+              <Button onClick={handleSignOut} variant='danger'>LogOut</Button>
 
             </div>
 

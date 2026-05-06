@@ -31,7 +31,7 @@ const AllBooks =async({searchParams}) => {
 
          <Search/>
         <Category/>
-        <div className="grid grid-cols-3 gap-5 my-5 w-10/12 mx-auto ">
+        <div className="grid grid-cols-2  md:grid-cols-4 gap-5 my-5 w-10/12 mx-auto ">
             {
                 filterBooks.map((book,index)=><BookCard book={book} key={index}/>)
             }

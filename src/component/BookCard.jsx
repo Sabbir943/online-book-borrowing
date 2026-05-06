@@ -10,7 +10,7 @@ const BookCard = ({book}) => {
    
     return (
         
- <Card className="card  shadow-sm border border-gray-200 mx-10/12 mx-auto">
+ <Card className="card  shadow-sm border border-gray-200 mx-10/12 mx-auto ">
    
   <div>
     <Image
@@ -21,18 +21,24 @@ const BookCard = ({book}) => {
     alt={book.title}
   />
   <div>
-    <Chip className='absolute top-5 right-20' color="danger" variant="primary">
-          <CircleFill width={6} />
-          <Chip.Label>{book.category}</Chip.Label>
-        </Chip>
+   
     
     <div className='space-y-2 mt-2'>
 
     <h1 className='text-xl font-bold text-center' >{book.title}</h1>
+    <div className='text-center'>
+       <Chip className='' color="danger" variant="primary">
+          <CircleFill width={6} />
+          <Chip.Label>{book.category}</Chip.Label>
+        </Chip>
+    </div>
+    
     <p className='text-muted text-center'> Written by:{book.author}</p>
     </div>
     <Separator />
-   <div>
+    <div className='flex justify-between items-center font'>
+
+   <div className='flex items-center gap-2 '>
     <p className='flex text-yellow-500 '>
      <FaStar />
      <FaStar />
@@ -42,6 +48,10 @@ const BookCard = ({book}) => {
     <p>{book.rating}</p>
     <p></p>
    </div>
+   <div>
+    <p>${book.price}</p>
+   </div>
+    </div>
     <Link href={`/bookDetails/${book.id}`} ><Button className="w-full my-3" variant='primary'>View Details</Button></Link>
 
    </div>

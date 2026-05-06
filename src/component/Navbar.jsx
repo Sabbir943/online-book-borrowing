@@ -69,7 +69,10 @@ const Navbar = () => {
             users &&
             <div className='flex gap-4 items-center'>
               <p>{users?.name}</p>
-              
+              <Avatar>
+                <Avatar.Image alt="John Doe" src={users?.image} referrerPolicy='no-referrer'/>
+
+              </Avatar>
 
               <Button onClick={handleSignOut} variant='danger'>LogOut</Button>
 

@@ -1,9 +1,10 @@
 
-import { CircleFill } from '@gravity-ui/icons';
+import { CircleFill, Star } from '@gravity-ui/icons';
 import { Button, Card, Chip, Separator } from '@heroui/react';
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
+import { FaStar } from 'react-icons/fa';
 
 const BookCard = ({book}) => {
    
@@ -31,7 +32,16 @@ const BookCard = ({book}) => {
     <p className='text-muted text-center'> Written by:{book.author}</p>
     </div>
     <Separator />
-    <p className='line-clamp-2 my-4'>{book.description}</p>
+   <div>
+    <p className='flex text-yellow-500 '>
+     <FaStar />
+     <FaStar />
+     <FaStar />
+    
+    </p>
+    <p>{book.rating}</p>
+    <p></p>
+   </div>
     <Link href={`/bookDetails/${book.id}`} ><Button className="w-full my-3" variant='primary'>View Details</Button></Link>
 
    </div>

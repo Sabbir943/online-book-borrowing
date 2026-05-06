@@ -9,7 +9,7 @@ const FeatureBook =async () => {
     return (
         <div className='w-10/12 mx-auto '>
             <h1 className='text-2xl font-bold text-muted my-5'>Featured Books</h1>
-            <div className='grid grid-cols-1 md:grid-cols-2 gap-5'>
+            <div className='grid grid-cols-2 md:grid-cols-4 gap-5'>
 
             {
                 topBooks.map((book,index)=><BookCard book={book} key={index}/>)

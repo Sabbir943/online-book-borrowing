@@ -14,7 +14,7 @@ const BookCard = ({book}) => {
   <div>
     <Image
    src={book.image_url}
-    className='rounded-2xl h-[30vh] w-[30vh] mx-auto relative'
+    className='rounded-2xl h-[30vh] w-[30vh] mx-auto relative flex-1'
    width={200}
    height={50}
     alt={book.title}
